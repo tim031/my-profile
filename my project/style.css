@@ -1,0 +1,117 @@
+/* colors ans fonts*/
+body {
+	background-color:  #01234A;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+}
+h1,h2,h3{font-family: courier ;
+	color: #68F0F4;
+}
+
+
+h1 {
+	color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1;
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+h2 {
+	color: 100,100,100;
+	font-size: 20px;
+	font-weight: bold;
+}
+a{ 
+	text-decoration: none ;
+ color:white ;
+ font-weight:600;
+ font-size: 16px;
+
+ }
+ a:hover {
+ 	color: #0A2540;
+ }
+ /* custom design with class */
+
+ .container{
+ 	width: 700px;
+ 	margin: 40px auto;
+
+ }
+
+
+@media( max-width: 760px) {
+ 	.container{
+     width:600px;
+ 	}
+ }
+
+
+
+ @media ( max-width: 600px){
+ 	.container{
+     width:500px ;
+ }
+
+ }
+ 
+
+
+ .card-white{
+ 	background-color: #01234A;
+ 	padding: 40px;
+ 	box-shadow: 0px 10px 30px rgba(0, 0, 0,0.1);
+ 	border-radius: 4px;
+ 	margin: 20px 0px;
+ 	text-align: center;
+ }
+
+ .img-circle {
+ 	border-radius: 50%;
+ }
+ .btn-blue{
+ 	background-color:blue ;
+ 	color: white;
+ 	padding:  15px 20px;
+ 	border-radius: 4px;
+ }
+
+ .btn-blue:hover {
+ 	background-color: black;
+ 	color: white;
+ }
+
+.list-inline{
+	list-style:none;
+	pandding-left:0px;
+
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+.list-inline i :hover{
+	font-size: 50px;
+	color: black;
+
+}
+
+
+#introduction p {
+ margin-bottom: 40px;
+}
+
+
+
+
+
+
+ 
